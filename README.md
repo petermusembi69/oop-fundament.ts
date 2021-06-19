@@ -9,7 +9,7 @@ npm init -y
 
 Add typescript as a dev dependency
 ```typescript
-yarn add -DE typescript`
+yarn add -DE typescript
 ```
 
 NB: If yarn is unrecognized install it using npm - global flag  
@@ -26,12 +26,12 @@ Add typescript file using the echo command
 echo console.log("Hello tsc"); > index.tsc
 ```
 
-Ops, a typo rename the file using the ren command
+Fix typo ren command
 `ren *.tsc *.ts`
 
 Compile our ts file to generate a js file
 ```typescript
-npx tsc`
+npx tsc
 ```
 Run our index.js file using node
 ```typescript
